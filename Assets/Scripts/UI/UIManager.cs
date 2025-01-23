@@ -156,6 +156,7 @@ public class UIManager : MonoBehaviour
                 toBeSelected.SetLayerAll(outlinesLayerName);
                 currentSelected = toBeSelected;
                 gearSystem.SetDriverRotator(toBeSelected);
+                ChangeDriverSpeed();
             }
         }
         else
@@ -210,6 +211,7 @@ public class UIManager : MonoBehaviour
         {
             ps.VisuallySelectPlanetGroup(outlinesLayerName);
             ps.SetDriverRotator(ps.GetPlanetaryAxis());
+            ChangeDriverSpeed();
         }
         gearSystem.StopSystem(); // -- its better to reset the speed everytime there's a switch in gears.
     }

@@ -6194,9 +6194,37 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2409779513867254325, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_OnDeselect.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2409779513867254325, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_OnDeselect.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2409779513867254325, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1982456751}
+    - target: {fileID: 2409779513867254325, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_OnDeselect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1982456751}
+    - target: {fileID: 2409779513867254325, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_OnDeselect.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2409779513867254325, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_OnDeselect.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangeDriverSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 2409779513867254325, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_OnDeselect.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2409779513867254325, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_OnDeselect.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2516220318580972642, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -6344,6 +6372,34 @@ PrefabInstance:
     - target: {fileID: 3333719892208048084, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417131152956990870, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417131152956990870, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417131152956990870, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1982456751}
+    - target: {fileID: 3417131152956990870, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417131152956990870, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeDriverSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417131152956990870, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417131152956990870, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3480441965882547569, guid: faad94910cc37534ba0a7c244c55a10e, type: 3}
       propertyPath: m_AnchorMax.y

@@ -110,7 +110,6 @@ public class PlanetarySystem : GearSystem
     }
     public override void SetSystemSpeed(float normalizedValue)
     {
-        Debug.Log(normalizedValue);
         if (!isRingGearLocked || this.drivingGear != ringGear)
         {
             base.SetSystemSpeed(normalizedValue);
